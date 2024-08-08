@@ -1,0 +1,40 @@
+body{
+    background-color: #000000;
+}
+
+h1{
+    color: #B1AFFF;
+    font-weight: 500;
+}
+
+h2{
+    color: #91DDCF;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+input{
+    height: 25px;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button{
+    text-align: center;
+    width: 15%;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color: #03346E;
+    color: #fff;
+
+}   
+
+
+.Main-div{
+    position: relative;
+    left: 20%;
+    margin-top: 10%;
+
+}
