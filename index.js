@@ -1,3 +1,17 @@
+function copyPassword() {
+    const passwordInput = document.getElementById("pass");
+  
+    if (passwordInput.value) {
+      passwordInput.select();
+      passwordInput.setSelectionRange(0, 99999); // For mobile devices
+      document.execCommand("copy");
+  
+      alert("Password copied to clipboard!");
+    } else {
+      alert("Nothing to copy!");
+    }
+  }
+  
 function strongPassword()
 {
     let pass ="";
@@ -11,6 +25,7 @@ function strongPassword()
     var1.value=pass;
     
 }
+
 
 let var1 = document.getElementById("pass");
 const len = 8;
